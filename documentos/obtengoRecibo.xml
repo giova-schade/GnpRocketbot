@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:ProcesarWS>
+         <tem:oDataWS>
+            <tem:Credentials>
+               <tem:UserName>prot1211</tem:UserName>
+               <tem:Password>pr0t3xD!2018</tem:Password>
+            </tem:Credentials>
+            <tem:TypeFormat>XML</tem:TypeFormat>
+            <tem:KeyProcess>REPORT</tem:KeyProcess>
+            <tem:KeyCode>H03120</tem:KeyCode> 
+            <tem:Page>1</tem:Page>           
+            <tem:ItemForPage>50</tem:ItemForPage>
+            <tem:InfoSort>VDatDocumentos.Documento</tem:InfoSort>>
+            <tem:ConditionsAdd>Documento;0;0;516272234;516272234;VDatDocumentos.Documento</tem:ConditionsAdd>
+         </tem:oDataWS>
+      </tem:ProcesarWS>
+
+   </soapenv:Body>
+</soapenv:Envelope>
